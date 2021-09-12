@@ -23,8 +23,4 @@ public class HelloWorldController {
     public void m5(){
         System.out.println("m5() method");
     }
-    public void createOrder() {
- 	   System.out.println(" create the orders ");
-    }
-    
 }
