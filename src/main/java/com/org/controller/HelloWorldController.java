@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String hello(@PathVariable("oid") String oid) {
         return "Hello :"+oid+"  Login Time:"+System.currentTimeMillis();
     }
+    
+    public void m1() {
+    	System.out.println("m1() method");
+    }
 }
