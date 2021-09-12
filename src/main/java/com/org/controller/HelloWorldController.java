@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String hello(@PathVariable("id") String name) {
         return "Hello :"+name;
     }
+    
+    public void m1() {
+    	System.out.println("m1() method");
+    }
 }
