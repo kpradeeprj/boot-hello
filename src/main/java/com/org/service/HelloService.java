@@ -7,4 +7,8 @@ public class HelloService {
     public void m6(){
         System.out.println("m6() method");
     }
+
+    public void m7(){
+        System.out.println("m6() method");
+    }
 }
