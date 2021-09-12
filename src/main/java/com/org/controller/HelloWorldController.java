@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
-    @RequestMapping("/hello/{name}")
-    public String hello(@PathVariable("id") String name) {
-        return "Hello :"+name;
+    @RequestMapping("/order/{oid}")
+    public String hello(@PathVariable("oid") String oid) {
+        return "Hello :"+oid+"  Login Time:"+System.currentTimeMillis();
     }
     
     public void m1() {
