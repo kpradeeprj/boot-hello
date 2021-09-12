@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @RequestMapping("/order/{oid}")
     public String hello(@PathVariable("oid") String oid) {
-        return "Hello : "+oid;
+        return "Hello :"+oid+"  Login Time:"+System.currentTimeMillis();
     }
 }
